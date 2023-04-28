@@ -51,15 +51,18 @@ document.getElementById("random-number2").innerHTML = Math.floor(Math.random()*1
 // condizione over65
 if (userEta > 65) { 
     document.getElementById("prezzo").innerHTML = priceOver.toFixed(2)  +"€";
+    document.getElementById("offerta").innerHTML = "offerta over 65";
        
 }
 // condizione minorenne
 else if (userEta < 18) {
     document.getElementById("prezzo").innerHTML = priceYoung.toFixed(2)  +"€";
+    document.getElementById("offerta").innerHTML = "offerta minorenni";
 
 }
 else {
     document.getElementById("prezzo").innerHTML = bigliettoPrezzo.toFixed(2)  +"€";
+    document.getElementById("offerta").innerHTML = "biglietto standard";
   }
 
 }
