@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: palevioletred;
+   
+}
+
+main h2 {
+    text-align: center;
+    color: white;
+}
+
+#output {
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+    color: black;
+   
+}
+
+.flex {
+    font-size: 15px;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    border: 2px solid  palevioletred;
+    color:  palevioletred;
+    border-radius: 5px;
+}
+
+/* parte nascosta risultati */
+
+#result {
+    display: none;
+    padding: 30px;
+}
+
+#result h2 {
+    text-align: center;
+    color: white;
+}
+
+
+.border {
+    border: 2px solid grey
+}
+#form-result {
+    
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+    color: black;
+   
+}
+
+
